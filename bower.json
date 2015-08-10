@@ -4,14 +4,6 @@
   "authors": [
     "StevenWeng <stevenweng@systex.com.tw>"
   ],
-  "moduleType": [
-    "amd",
-    "es6",
-    "globals",
-    "node",
-    "yui"
-  ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
