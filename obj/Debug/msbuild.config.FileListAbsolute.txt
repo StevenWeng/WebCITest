@@ -1,0 +1,7 @@
+D:\workspace\DotNET\WebCITest\Bin\Debug\WebCITest.dll
+D:\workspace\DotNET\WebCITest\Bin\Debug\WebCITest.pdb
+D:\workspace\DotNET\WebCITest\Bin\Debug\nunit.framework.dll
+D:\workspace\DotNET\WebCITest\Bin\Debug\nunit.framework.xml
+D:\workspace\DotNET\WebCITest\obj\Debug\msbuild.configResolveAssemblyReference.cache
+D:\workspace\DotNET\WebCITest\obj\Debug\WebCITest.dll
+D:\workspace\DotNET\WebCITest\obj\Debug\WebCITest.pdb
