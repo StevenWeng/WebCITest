@@ -19,4 +19,8 @@ public class HelloWorld
     {
         return "Hi !!";
     }
+
+    public String goodBye() {
+        return "Bye";
+    }
 }

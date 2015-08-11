@@ -28,4 +28,11 @@ public class HelloWorldTest
         String result = helloWorld.sayHi();
         Assert.AreEqual("Hi !!", result);
     }
+
+    [Test]
+    public void testGoodBye()
+    {
+        String result = helloWorld.goodBye();
+        Assert.AreEqual("Bye", result);
+    }
 }
