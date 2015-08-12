@@ -8,6 +8,6 @@
     }));
 
     it('test Say hi', function () {
-        expect(helloWorldService.sayHi()).toEqual('Hi!...');
+        expect(helloWorldService.sayHi()).toEqual('Hi!');
     });
 });
