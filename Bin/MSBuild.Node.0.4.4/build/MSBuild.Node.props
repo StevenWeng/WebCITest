@@ -4,7 +4,7 @@
         <GlobalNodePath>$(NODEJS)</GlobalNodePath>
         <GlobalNodeModulePath>$(HOMEDRIVE)$(HOMEPATH)\AppData\Roaming\npm</GlobalNodeModulePath>
         <LocalNodePath></LocalNodePath>
-        <LocalNodeModulePath></LocalNodeModulePath>
+        <LocalNodeModulePath>C:\Users\1400324\AppData\Roaming\npm</LocalNodeModulePath>
         <NodePath>$(GlobalNodePath)</NodePath>
         <NodeModulePath>$(GlobalNodeModulePath)</NodeModulePath>
     </PropertyGroup>
