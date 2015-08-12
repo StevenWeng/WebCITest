@@ -51,7 +51,7 @@
         <ReadLinesFromFile File="$(GulpOut)">
             <Output TaskParameter="Lines" ItemName="GulpOutLines"/>
         </ReadLinesFromFile>
-        <Delete Files="$(GulpOut)"/>
+        <!--<Delete Files="$(GulpOut)"/>-->
         <Warning Condition=" '$(GulpExitCode)' != '0' " Text="%(GulpOutLines.Identity)" />
         <Error Condition=" '$(GulpExitCode)' != '0' " Text="$(GulpBuildTaskError)" />
     </Target>
