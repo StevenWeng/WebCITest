@@ -10,4 +10,8 @@
     it('test Say hi', function () {
         expect(helloWorldService.sayHi()).toEqual('Hi!');
     });
+
+    it('test Good Bye', function () {
+        expect(helloWorldService.goodBye()).toEqual('GoodBye!');
+    });
 });

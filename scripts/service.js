@@ -6,4 +6,8 @@ serviceModule.service('HelloWorldService', [function () {
     self.sayHi = function () {
         return 'Hi!';
     };
+
+    self.goodBye = function () {
+        return 'GoodBye!';
+    };
 } ]);
