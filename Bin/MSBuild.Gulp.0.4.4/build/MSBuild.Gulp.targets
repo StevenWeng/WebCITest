@@ -53,7 +53,9 @@
         </ReadLinesFromFile>
         <Delete Files="$(GulpOut)"/>
         <Warning Condition=" '$(GulpExitCode)' != '0' " Text="%(GulpOutLines.Identity)" />
-        <Error Condition=" '$(GulpExitCode)' != '0' " Text="$(GulpBuildTaskError)" />
+        <!-- Move To msbuild.config
+          <Error Condition=" '$(GulpExitCode)' != '0' " Text="$(GulpBuildTaskError)" />
+        -->
     </Target>
 
     <Target Name="RunGulpClean"

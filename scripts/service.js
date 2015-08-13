@@ -8,6 +8,6 @@ serviceModule.service('HelloWorldService', [function () {
     };
 
     self.goodBye = function () {
-        return 'GoodBye!';
+        return 'GoodBye!!';
     };
 } ]);
