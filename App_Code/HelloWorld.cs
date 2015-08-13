@@ -21,6 +21,6 @@ public class HelloWorld
     }
 
     public String goodBye() {
-        return "Bye";
+        return "ByeBye";
     }
 }
